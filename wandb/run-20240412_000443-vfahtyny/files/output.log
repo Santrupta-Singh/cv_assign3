@@ -1,0 +1,645 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+WARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+Plotting labels to yolov8_100\yolov8n\labels.jpg...
+zero-size array to reduction operation maximum which has no identity
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache... 0 images, 100 backgrounds, 0 co
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache... 0 images, 50 backgrounds, 0 corrupt
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_100\yolov8n
+Starting training for 20 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       1/20         0G          0      106.7          0          0        640: 100%|██████████| 7/7 [01:27<00:00, 12.44
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:18<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       2/20         0G          0        101          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.18
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       3/20         0G          0      91.27          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.04
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+       4/20         0G          0      84.51          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.96
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+       5/20         0G          0      79.64          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.86
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+       6/20         0G          0      74.18          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.92
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       7/20         0G          0       69.4          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.94
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+       8/20         0G          0      65.68          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.08
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+       9/20         0G          0      63.81          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.83
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+      10/20         0G          0      64.06          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.98
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+Closing dataloader mosaic
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+      11/20         0G          0      61.99          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.91
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+      12/20         0G          0      59.21          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.82
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+      13/20         0G          0      56.87          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.91
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+      14/20         0G          0      55.97          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.74
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+      15/20         0G          0      55.46          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.04
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+      16/20         0G          0      53.84          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.02
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+
+
+
+
+
+
+      17/20         0G          0      52.96          0          0        640: 100%|██████████| 7/7 [01:19<00:00, 11.39
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+      18/20         0G          0      52.36          0          0        640: 100%|██████████| 7/7 [00:43<00:00,  6.18
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+
+
+
+
+
+
+      19/20         0G          0      52.05          0          0        640: 100%|██████████| 7/7 [00:43<00:00,  6.22
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+
+
+
+
+
+
+      20/20         0G          0       51.5          0          0        640: 100%|██████████| 7/7 [00:43<00:00,  6.17
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+20 epochs completed in 0.525 hours.
+Optimizer stripped from yolov8_100\yolov8n\weights\last.pt, 6.2MB
+Optimizer stripped from yolov8_100\yolov8n\weights\best.pt, 6.2MB
+Validating yolov8_100\yolov8n\weights\best.pt...
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+Speed: 2.8ms preprocess, 119.9ms inference, 0.0ms loss, 6.3ms postprocess per image
+Results saved to [1myolov8_100\yolov8n
+Training: yolov8n.yaml
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.yaml, data=./datasets/archive/config.yaml, epochs=10, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_400img, name=8n_scratch, exist_ok=True, pretrained=False, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_400img\8n_scratch
+Training: yolov8n.yaml
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\train... 42 images, 0 backgrounds, 0 c
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.yaml, data=./datasets/archive/config.yaml, epochs=10, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_400img, name=8n_scratch, exist_ok=True, pretrained=False, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_400img\8n_scratch
+Overriding model.yaml nc=80 with nc=1
+                   from  n    params  module                                       arguments
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]
+ 22        [15, 18, 21]  1    751507  ultralytics.nn.modules.head.Detect           [1, [64, 128, 256]]
+YOLOv8n summary: 225 layers, 3011043 parameters, 3011027 gradients, 8.2 GFLOPs
+[34m[1mTensorBoard: [39m[22mStart with 'tensorboard --logdir yolov8_400img\8n_scratch', view at http://localhost:6006/
+
+
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\train... 380 images, 0 backgrounds, 0
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\train... 400 images, 0 backgrounds, 0
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\val... 50 images, 0 backgrounds, 0 corru
+[34m[1mval: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\val.cache
+Plotting labels to yolov8_400img\8n_scratch\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/25 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_400img\8n_scratch
+Starting training for 10 epochs...
+Closing dataloader mosaic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/10         0G      3.216      5.104      4.314         16        640: 100%|██████████| 25/25 [05:55<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m Step only supports monotonically increasing values, use define_metric to set a custom x axis. For details see: https://wandb.me/define-metric
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train/box_loss': 3.21574, 'train/cls_loss': 5.10435, 'train/dfl_loss': 4.314, '_timestamp': 1712864048.1459231}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00048000000000000007, 'lr/pg1': 0.00048000000000000007, 'lr/pg2': 0.00048000000000000007, '_timestamp': 1712864048.1459231}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/25 [00:00<?, ?it/s]
+                   all         50         52    0.00235      0.635    0.00684    0.00189
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00235, 'metrics/recall(B)': 0.63462, 'metrics/mAP50(B)': 0.00684, 'metrics/mAP50-95(B)': 0.00189, 'val/box_loss': 2.98452, 'val/cls_loss': 4.18483, 'val/dfl_loss': 4.15581, '_timestamp': 1712864066.389804}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'labels': {'_type': 'image-file', 'sha256': '2f7bc911d3c08da6328ddcdb99b0e6ac4b68b136da4dd57d7fdb86daf9967269', 'size': 234787, 'path': 'media/images/labels_20_2f7bc911d3c08da6328d.jpg', 'format': 'jpg', 'width': 1600, 'height': 1600}, '_timestamp': 1712864066.4379601}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch0': {'_type': 'image-file', 'sha256': '38014912c5c9094fb01964500b39850b146510a26c8fbd0f8d26171f5e958e15', 'size': 471310, 'path': 'media/images/train_batch0_20_38014912c5c9094fb019.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712864066.5058045}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch1': {'_type': 'image-file', 'sha256': '2e6ae76080866669912417933a1cfb27f23b212d565a7be2e1084bdc298b6d68', 'size': 478899, 'path': 'media/images/train_batch1_20_2e6ae760808666699124.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712864066.5760493}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch2': {'_type': 'image-file', 'sha256': '244828aa4eab96d31b463a7f1e6715e6b9b80dafaed9eb4ccf35918d18e827d7', 'size': 479308, 'path': 'media/images/train_batch2_20_244828aa4eab96d31b46.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712864066.6336315}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'model/parameters': 3011043, 'model/GFLOPs': 8.194, 'model/speed_PyTorch(ms)': 263.794, '_timestamp': 1712864066.7954981}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/10         0G      3.064      4.674       4.12         16        640: 100%|██████████| 25/25 [05:54<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'train/box_loss': 3.06372, 'train/cls_loss': 4.67435, 'train/dfl_loss': 4.12026, '_timestamp': 1712864421.221969}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00088298, 'lr/pg1': 0.00088298, 'lr/pg2': 0.00088298, '_timestamp': 1712864421.221969}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50         52    0.00213      0.596    0.00556    0.00184
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00213, 'metrics/recall(B)': 0.59615, 'metrics/mAP50(B)': 0.00556, 'metrics/mAP50-95(B)': 0.00184, 'val/box_loss': 3.00355, 'val/cls_loss': 3.9829, 'val/dfl_loss': 4.16784, '_timestamp': 1712864439.588719}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/10         0G      3.075      4.453      3.867         16        640: 100%|██████████| 25/25 [05:55<00:00, 14.
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'train/box_loss': 3.07548, 'train/cls_loss': 4.45265, 'train/dfl_loss': 3.86698, '_timestamp': 1712864795.5850663}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0011869600000000001, 'lr/pg1': 0.0011869600000000001, 'lr/pg2': 0.0011869600000000001, '_timestamp': 1712864795.5850663}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/25 [00:00<?, ?it/s]
+                   all         50         52    0.00221      0.596    0.00645    0.00246
+
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00221, 'metrics/recall(B)': 0.59615, 'metrics/mAP50(B)': 0.00645, 'metrics/mAP50-95(B)': 0.00246, 'val/box_loss': 3.20547, 'val/cls_loss': 3.9807, 'val/dfl_loss': 4.29896, '_timestamp': 1712864813.905472}).
+
+
+       4/10         0G      2.847      4.188      3.698         17        640:   8%|▊         | 2/25 [00:30<05:47, 15.1
+Training: yolov8n.yaml
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.yaml, data=./archive/config.yaml, epochs=5, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_400, name=yolov8n_new, exist_ok=True, pretrained=False, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_400\yolov8n_new
+Training: yolov8n.yaml
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.yaml, data=./datasets/archive/config.yaml, epochs=5, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_400, name=yolov8n_new, exist_ok=True, pretrained=False, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_400\yolov8n_new
+Overriding model.yaml nc=80 with nc=1
+                   from  n    params  module                                       arguments
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]
+ 22        [15, 18, 21]  1    751507  ultralytics.nn.modules.head.Detect           [1, [64, 128, 256]]
+YOLOv8n summary: 225 layers, 3011043 parameters, 3011027 gradients, 8.2 GFLOPs
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\train.cache... 400 images, 0 backgroun
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\val.cache... 50 images, 0 backgrounds, 0
+[34m[1mTensorBoard: [39m[22mStart with 'tensorboard --logdir yolov8_400\yolov8n_new', view at http://localhost:6006/
+Freezing layer 'model.22.dfl.conv.weight'
+Plotting labels to yolov8_400\yolov8n_new\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/25 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_400\yolov8n_new
+Starting training for 5 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        1/5         0G      3.406      4.286      4.259         40        640: 100%|██████████| 25/25 [06:07<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train/box_loss': 3.40594, 'train/cls_loss': 4.2864, 'train/dfl_loss': 4.2588, '_timestamp': 1712865293.5337973}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00048000000000000007, 'lr/pg1': 0.00048000000000000007, 'lr/pg2': 0.00048000000000000007, '_timestamp': 1712865293.5337973}).
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:18<0
+                   all         50         52    0.00238      0.635    0.00568    0.00166
+  0%|          | 0/25 [00:00<?, ?it/s]
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00238, 'metrics/recall(B)': 0.63462, 'metrics/mAP50(B)': 0.00568, 'metrics/mAP50-95(B)': 0.00166, 'val/box_loss': 2.97795, 'val/cls_loss': 4.19311, 'val/dfl_loss': 4.15012, '_timestamp': 1712865312.0847788}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'labels': {'_type': 'image-file', 'sha256': '2f7bc911d3c08da6328ddcdb99b0e6ac4b68b136da4dd57d7fdb86daf9967269', 'size': 234787, 'path': 'media/images/labels_20_2f7bc911d3c08da6328d.jpg', 'format': 'jpg', 'width': 1600, 'height': 1600}, '_timestamp': 1712865312.1231894}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch0': {'_type': 'image-file', 'sha256': 'f1f91171daed93b760ad5f9a056d7cf80197b5098beadab346f0855902c65272', 'size': 670859, 'path': 'media/images/train_batch0_20_f1f91171daed93b760ad.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712865312.2023013}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch1': {'_type': 'image-file', 'sha256': '433522eedefbf32c5668595fc9c699429ba9c5c37811f5b978f2a68675ead8bf', 'size': 591836, 'path': 'media/images/train_batch1_20_433522eedefbf32c5668.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712865312.2694542}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch2': {'_type': 'image-file', 'sha256': 'c866a8d5fe77cc163f9320c852b0f07baa01d2a640bf43d872829854378cf832', 'size': 676020, 'path': 'media/images/train_batch2_20_c866a8d5fe77cc163f93.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712865312.34181}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'model/parameters': 3011043, 'model/GFLOPs': 8.194, 'model/speed_PyTorch(ms)': 271.099, '_timestamp': 1712865312.5016696}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        2/5         0G      3.305      4.105      4.101         37        640: 100%|██████████| 25/25 [06:04<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'train/box_loss': 3.30486, 'train/cls_loss': 4.10545, 'train/dfl_loss': 4.10082, '_timestamp': 1712865676.9909544}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0007859600000000002, 'lr/pg1': 0.0007859600000000002, 'lr/pg2': 0.0007859600000000002, '_timestamp': 1712865676.991451}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/25 [00:00<?, ?it/s]
+                   all         50         52    0.00225      0.635     0.0062      0.002
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00225, 'metrics/recall(B)': 0.63462, 'metrics/mAP50(B)': 0.0062, 'metrics/mAP50-95(B)': 0.002, 'val/box_loss': 3.05035, 'val/cls_loss': 4.03412, 'val/dfl_loss': 4.16661, '_timestamp': 1712865695.198736}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        3/5         0G       3.14      3.997      3.869         31        640: 100%|██████████| 25/25 [06:03<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'train/box_loss': 3.13968, 'train/cls_loss': 3.99686, 'train/dfl_loss': 3.86901, '_timestamp': 1712866058.9714394}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0008939200000000001, 'lr/pg1': 0.0008939200000000001, 'lr/pg2': 0.0008939200000000001, '_timestamp': 1712866058.9714394}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50         52     0.0024      0.538    0.00769     0.0023
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:18<0
+
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0024, 'metrics/recall(B)': 0.53846, 'metrics/mAP50(B)': 0.00769, 'metrics/mAP50-95(B)': 0.0023, 'val/box_loss': 3.14521, 'val/cls_loss': 4.08321, 'val/dfl_loss': 4.3692, '_timestamp': 1712866077.5577745}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        4/5         0G      3.019      3.855       3.72         34        640: 100%|██████████| 25/25 [06:04<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 20. Dropping entry: {'train/box_loss': 3.01883, 'train/cls_loss': 3.8552, 'train/dfl_loss': 3.72035, '_timestamp': 1712866442.2885997}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0008038800000000002, 'lr/pg1': 0.0008038800000000002, 'lr/pg2': 0.0008038800000000002, '_timestamp': 1712866442.2885997}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50         52    0.00293      0.577     0.0113    0.00305
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/25 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00293, 'metrics/recall(B)': 0.57692, 'metrics/mAP50(B)': 0.01127, 'metrics/mAP50-95(B)': 0.00305, 'val/box_loss': 3.19721, 'val/cls_loss': 4.1047, 'val/dfl_loss': 4.55064, '_timestamp': 1712866460.202878}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        5/5         0G      3.004      3.739      3.582         37        640: 100%|██████████| 25/25 [06:04<00:00, 14.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'train/box_loss': 3.00443, 'train/cls_loss': 3.73885, 'train/dfl_loss': 3.58165, '_timestamp': 1712866824.879247}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0004159999999999999, 'lr/pg1': 0.0004159999999999999, 'lr/pg2': 0.0004159999999999999, '_timestamp': 1712866824.879744}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+5 epochs completed in 0.536 hours.
+Optimizer stripped from yolov8_400\yolov8n_new\weights\last.pt, 6.2MB
+Optimizer stripped from yolov8_400\yolov8n_new\weights\best.pt, 6.2MB
+Validating yolov8_400\yolov8n_new\weights\best.pt...
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+YOLOv8n summary (fused): 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.00445, 'metrics/recall(B)': 0.44231, 'metrics/mAP50(B)': 0.01159, 'metrics/mAP50-95(B)': 0.00406, 'val/box_loss': 3.15041, 'val/cls_loss': 4.13855, 'val/dfl_loss': 4.38626, '_timestamp': 1712866843.0644789}).
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:14<0
+                   all         50         52    0.00444      0.442     0.0116    0.00406
+Speed: 4.3ms preprocess, 238.1ms inference, 0.0ms loss, 1.3ms postprocess per image
+Results saved to [1myolov8_400\yolov8n_new
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.004443585780525503, 'metrics/recall(B)': 0.4423076923076923, 'metrics/mAP50(B)': 0.011575492752575913, 'metrics/mAP50-95(B)': 0.00406011108002034, '_timestamp': 1712866864.0845988}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'val_batch0_pred': {'_type': 'image-file', 'sha256': '9246f1b5932dafb19d0b27228e5bf458f12137c90c57260a00b3debdd66796c2', 'size': 454562, 'path': 'media/images/val_batch0_pred_20_9246f1b5932dafb19d0b.jpg', 'format': 'jpg', 'width': 1920, 'height': 1464}, '_timestamp': 1712866864.1335359}).

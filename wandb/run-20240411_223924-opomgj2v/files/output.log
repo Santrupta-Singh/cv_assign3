@@ -1,0 +1,626 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train... 0 images, 100 backgrounds, 0 corrupt:
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val... 0 images, 50 backgrounds, 0 corrupt: 100%
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mtrain: [39m[22mWARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache
+WARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+[34m[1mval: [39m[22mWARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+[34m[1mval: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache
+WARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+Plotting labels to yolov8_100\yolov8n.yaml\labels.jpg...
+zero-size array to reduction operation maximum which has no identity
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/7 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_100\yolov8n.yaml
+Starting training for 20 epochs...
+
+
+
+
+
+
+       1/20         0G          0      111.1          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.07
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+
+
+
+
+
+
+       2/20         0G          0      102.9          0          0        640: 100%|██████████| 7/7 [01:21<00:00, 11.69
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       3/20         0G          0      91.35          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.74
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+
+
+
+
+
+
+       4/20         0G          0      82.01          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.77
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       5/20         0G          0      73.57          0          0        640: 100%|██████████| 7/7 [01:21<00:00, 11.71
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+
+
+
+
+
+
+       6/20         0G          0      69.33          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.73
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+
+
+
+
+
+
+       7/20         0G          0       65.6          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.73
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+
+
+
+
+
+
+       8/20         0G          0      68.07          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.77
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       9/20         0G          0      67.39          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.76
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+
+
+
+
+
+
+      10/20         0G          0      62.86          0          0        640: 100%|██████████| 7/7 [01:21<00:00, 11.70
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+Closing dataloader mosaic
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:16<0
+
+
+
+
+
+
+
+      11/20         0G          0       59.6          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.83
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+      12/20         0G          0      57.84          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.21
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+      13/20         0G          0      55.56          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.16
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+      14/20         0G          0      54.25          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.20
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+      15/20         0G          0      53.07          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.13
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+      16/20         0G          0      51.68          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.03
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+      17/20         0G          0       50.2          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.03
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+
+
+
+
+
+      18/20         0G          0      49.67          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.99
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+
+
+
+
+
+      19/20         0G          0      49.54          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.25
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+      20/20         0G          0      48.98          0          0        640: 100%|██████████| 7/7 [01:24<00:00, 12.10
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+20 epochs completed in 0.566 hours.
+Optimizer stripped from yolov8_100\yolov8n.yaml\weights\last.pt, 6.2MB
+Optimizer stripped from yolov8_100\yolov8n.yaml\weights\best.pt, 6.2MB
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+YOLOv8n summary (fused): 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:08<0
+                   all         50          0          0          0          0          0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:14<0
+Speed: 4.7ms preprocess, 244.2ms inference, 0.0ms loss, 7.7ms postprocess per image
+Results saved to [1myolov8_100\yolov8n.yaml
+Training: yolov8n.yaml
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.yaml, data=./archive/config1.yaml, epochs=20, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_100, name=yolov8n_new, exist_ok=True, pretrained=False, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_100\yolov8n_new
+Overriding model.yaml nc=80 with nc=1
+                   from  n    params  module                                       arguments
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]
+ 22        [15, 18, 21]  1    751507  ultralytics.nn.modules.head.Detect           [1, [64, 128, 256]]
+YOLOv8n summary: 225 layers, 3011043 parameters, 3011027 gradients, 8.2 GFLOPs
+[34m[1mTensorBoard: [39m[22mStart with 'tensorboard --logdir yolov8_100\yolov8n_new', view at http://localhost:6006/
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+WARNING  No labels found in C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+Plotting labels to yolov8_100\yolov8n_new\labels.jpg...
+zero-size array to reduction operation maximum which has no identity
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\train.cache... 0 images, 100 backgrounds, 0 co
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\images1\val.cache... 0 images, 50 backgrounds, 0 corrupt
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_100\yolov8n_new
+Starting training for 20 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       1/20         0G          0      111.6          0          0        640: 100%|██████████| 7/7 [01:27<00:00, 12.47
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m Step only supports monotonically increasing values, use define_metric to set a custom x axis. For details see: https://wandb.me/define-metric
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 111.63475, 'train/dfl_loss': 0.0, '_timestamp': 1712858029.2424812}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00012000000000000002, 'lr/pg1': 0.00012000000000000002, 'lr/pg2': 0.00012000000000000002, '_timestamp': 1712858029.243266}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 175.11389, 'val/dfl_loss': 0.0, '_timestamp': 1712858047.0364697}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch0': {'_type': 'image-file', 'sha256': '38f4624125d7aee90352f39e185e1c31082d2de2303c40e151d7a171a6a6ab46', 'size': 602130, 'path': 'media/images/train_batch0_20_38f4624125d7aee90352.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712858047.0998783}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch1': {'_type': 'image-file', 'sha256': '4b0da9b5fa1772c95c3c0ff9f3cc05c26de076e24f3ef5d070fcc173aba41604', 'size': 540599, 'path': 'media/images/train_batch1_20_4b0da9b5fa1772c95c3c.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712858047.1706166}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'train_batch2': {'_type': 'image-file', 'sha256': 'bccdb5efe4fb238b0a5c85a2f02c4cf7e4e6574709ba58884e058355d371e90f', 'size': 646132, 'path': 'media/images/train_batch2_20_bccdb5efe4fb238b0a5c.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712858047.223543}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 20. Dropping entry: {'model/parameters': 3011043, 'model/GFLOPs': 8.194, 'model/speed_PyTorch(ms)': 261.939, '_timestamp': 1712858047.3786142}).
+
+
+
+
+
+       2/20         0G          0      102.7          0          0        640: 100%|██████████| 7/7 [01:22<00:00, 11.75
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:08<0[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 102.7035, 'train/dfl_loss': 0.0, '_timestamp': 1712858129.6218863}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00024713000000000003, 'lr/pg1': 0.00024713000000000003, 'lr/pg2': 0.00024713000000000003, '_timestamp': 1712858129.6218863}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:14<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+
+
+       3/20         0G          0      106.7          0          0        640:  14%|█▍        | 1/7 [00:10<01:04, 10.69[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 174.50833, 'val/dfl_loss': 0.0, '_timestamp': 1712858144.9274185}).
+
+
+
+
+       3/20         0G          0      90.47          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 11.89
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 90.46798, 'train/dfl_loss': 0.0, '_timestamp': 1712858228.1699896}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0003604, 'lr/pg1': 0.0003604, 'lr/pg2': 0.0003604, '_timestamp': 1712858228.1699896}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 173.48979, 'val/dfl_loss': 0.0, '_timestamp': 1712858246.1806805}).
+
+
+
+
+
+       4/20         0G          0      80.48          0          0        640: 100%|██████████| 7/7 [01:26<00:00, 12.34
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 80.47825, 'train/dfl_loss': 0.0, '_timestamp': 1712858332.5696661}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00045981000000000006, 'lr/pg1': 0.00045981000000000006, 'lr/pg2': 0.00045981000000000006, '_timestamp': 1712858332.5696661}).
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 169.98204, 'val/dfl_loss': 0.0, '_timestamp': 1712858350.6768413}).
+
+
+
+
+
+       5/20         0G          0      72.44          0          0        640: 100%|██████████| 7/7 [01:23<00:00, 12.00
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 72.44191, 'train/dfl_loss': 0.0, '_timestamp': 1712858434.6705196}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00054536, 'lr/pg1': 0.00054536, 'lr/pg2': 0.00054536, '_timestamp': 1712858434.6710157}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 149.60646, 'val/dfl_loss': 0.0, '_timestamp': 1712858452.7067318}).
+
+
+
+
+
+       6/20         0G          0      67.88          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.15
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 67.87675, 'train/dfl_loss': 0.0, '_timestamp': 1712858537.757145}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00061705, 'lr/pg1': 0.00061705, 'lr/pg2': 0.00061705, '_timestamp': 1712858537.7575905}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 121.58507, 'val/dfl_loss': 0.0, '_timestamp': 1712858555.6464272}).
+
+
+
+
+
+       7/20         0G          0      64.56          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.19
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 64.55656, 'train/dfl_loss': 0.0, '_timestamp': 1712858641.0265398}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00067488, 'lr/pg1': 0.00067488, 'lr/pg2': 0.00067488, '_timestamp': 1712858641.0265398}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 99.27126, 'val/dfl_loss': 0.0, '_timestamp': 1712858659.0171783}).
+
+
+
+
+
+       8/20         0G          0      62.43          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.17
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 62.43106, 'train/dfl_loss': 0.0, '_timestamp': 1712858744.2203908}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00071885, 'lr/pg1': 0.00071885, 'lr/pg2': 0.00071885, '_timestamp': 1712858744.220934}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 92.13651, 'val/dfl_loss': 0.0, '_timestamp': 1712858762.2057667}).
+
+
+
+
+
+       9/20         0G          0      60.09          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.18
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 60.09147, 'train/dfl_loss': 0.0, '_timestamp': 1712858847.4719155}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0007489600000000001, 'lr/pg1': 0.0007489600000000001, 'lr/pg2': 0.0007489600000000001, '_timestamp': 1712858847.4724123}).
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 84.35819, 'val/dfl_loss': 0.0, '_timestamp': 1712858865.4685388}).
+
+
+
+
+
+      10/20         0G          0      58.41          0          0        640: 100%|██████████| 7/7 [01:25<00:00, 12.19
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 58.41047, 'train/dfl_loss': 0.0, '_timestamp': 1712858950.7884555}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0007652099999999999, 'lr/pg1': 0.0007652099999999999, 'lr/pg2': 0.0007652099999999999, '_timestamp': 1712858950.7888238}).
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+Closing dataloader mosaic
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      11/20         0G          0      64.17          0          0        640:  14%|█▍        | 1/7 [00:13<01:20, 13.46[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.45177, 'val/dfl_loss': 0.0, '_timestamp': 1712858968.7003188}).
+      11/20         0G          0      63.58          0          0        640:  43%|████▎     | 3/7 [00:40<00:54, 13.59
+      11/20         0G          0      63.45          0          0        640:  57%|█████▋    | 4/7 [00:54<00:40, 13.58
+      11/20         0G          0      63.41          0          0        640:  71%|███████▏  | 5/7 [01:08<00:27, 13.68
+      11/20         0G          0      63.29          0          0        640:  86%|████████▌ | 6/7 [01:21<00:13, 13.70
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 11 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0007676, 'lr/pg1': 0.0007676, 'lr/pg2': 0.0007676, '_timestamp': 1712859054.0020056}).20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 56.55046, 'train/dfl_loss': 0.0, '_timestamp': 1712859054.0020056}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0.0007676, 'lr/pg2': 0.0007676, '_timestamp': 1712859054.0020056}).20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 56.55046, 'train/dfl_loss': 0.0, '_timestamp': 1712859054.0020056}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0.0007676, 'lr/pg2': 0.0007676, '_timestamp': 1712859054.0020056}).20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 56.55046, 'train/dfl_loss': 0.0, '_timestamp': 1712859054.0020056}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0.0007676, 'lr/pg2': 0.0007676, '_timestamp': 1712859054.0020056}).20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 56.55046, 'train/dfl_loss': 0.0, '_timestamp': 1712859054.0020056}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 11 is less than current step: 20. Dropping entry: {'train_batch72': {'_type': 'image-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+      12/20         0G          0      63.84          0          0        640:  14%|█▍        | 1/7 [00:13<01:21, 13.56e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+      12/20         0G          0      63.14          0          0        640:  29%|██▊       | 2/7 [00:26<01:07, 13.47e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+      12/20         0G          0      62.84          0          0        640:  43%|████▎     | 3/7 [00:40<00:54, 13.53e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+      12/20         0G          0      62.62          0          0        640:  57%|█████▋    | 4/7 [00:54<00:41, 13.67e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+      12/20         0G          0      62.39          0          0        640:  71%|███████▏  | 5/7 [01:08<00:27, 13.63e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+      12/20         0G          0      62.16          0          0        640:  86%|████████▌ | 6/7 [01:21<00:13, 13.64e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?e-file', 'sha256': '549be04350dfd2545da051a7242541a0ec77d7477255916ef7140cc728ae2b02', 'size': 489201, 'path': 'media/images/train_batch72_20_549be04350dfd2545da0.jpg', 'format': 'jpg', 'width': 1920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 12 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0007561299999999999, 'lr/pg1': 0.0007561299999999999, 'lr/pg2': 0.0007561299999999999, '_timestamp': 1712859157.4288096}).': 0.0, 'train/cls_loss': 55.52277, 'train/dfl_loss': 0.0, '_timestamp': 1712859157.4288096}).920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0 'lr/pg1': 0.0007561299999999999, 'lr/pg2': 0.0007561299999999999, '_timestamp': 1712859157.4288096}).': 0.0, 'train/cls_loss': 55.52277, 'train/dfl_loss': 0.0, '_timestamp': 1712859157.4288096}).920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0007561299999999999, 'lr/pg2': 0.0007561299999999999, '_timestamp': 1712859157.4288096}).': 0.0, 'train/cls_loss': 55.52277, 'train/dfl_loss': 0.0, '_timestamp': 1712859157.4288096}).920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0007561299999999999, 'lr/pg2': 0.0007561299999999999, '_timestamp': 1712859157.4288096}).': 0.0, 'train/cls_loss': 55.52277, 'train/dfl_loss': 0.0, '_timestamp': 1712859157.4288096}).920, 'height': 1920}, '_timestamp': 1712859072.2098532}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 12 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+      13/20         0G          0      60.65          0          0        640:  14%|█▍        | 1/7 [00:13<01:20, 13.44ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+      13/20         0G          0      60.69          0          0        640:  29%|██▊       | 2/7 [00:27<01:07, 13.54ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+      13/20         0G          0      60.62          0          0        640:  43%|████▎     | 3/7 [00:40<00:54, 13.52ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+      13/20         0G          0      60.54          0          0        640:  57%|█████▋    | 4/7 [00:54<00:41, 13.67ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+      13/20         0G          0      60.45          0          0        640:  71%|███████▏  | 5/7 [01:07<00:27, 13.62ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+      13/20         0G          0       60.4          0          0        640:  86%|████████▌ | 6/7 [01:21<00:13, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 93.36641, 'val/dfl_loss': 0.0, '_timestamp': 1712859175.2465851})., '_timestamp': 1712859072.2098532}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 13 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0007308000000000002, 'lr/pg1': 0.0007308000000000002, 'lr/pg2': 0.0007308000000000002, '_timestamp': 1712859260.1251578}).': 0.0, 'train/cls_loss': 53.93138, 'train/dfl_loss': 0.0, '_timestamp': 1712859260.1239398}).712859175.2465851})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0 'lr/pg1': 0.0007308000000000002, 'lr/pg2': 0.0007308000000000002, '_timestamp': 1712859260.1251578}).': 0.0, 'train/cls_loss': 53.93138, 'train/dfl_loss': 0.0, '_timestamp': 1712859260.1239398}).712859175.2465851})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0007308000000000002, 'lr/pg2': 0.0007308000000000002, '_timestamp': 1712859260.1251578}).': 0.0, 'train/cls_loss': 53.93138, 'train/dfl_loss': 0.0, '_timestamp': 1712859260.1239398}).712859175.2465851})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0007308000000000002, 'lr/pg2': 0.0007308000000000002, '_timestamp': 1712859260.1251578}).': 0.0, 'train/cls_loss': 53.93138, 'train/dfl_loss': 0.0, '_timestamp': 1712859260.1239398}).712859175.2465851})., '_timestamp': 1712859072.2098532}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0007308000000000002, 'lr/pg2': 0.0007308000000000002, '_timestamp': 1712859260.1251578}).': 0.0, 'train/cls_loss': 53.93138, 'train/dfl_loss': 0.0, '_timestamp': 1712859260.1239398}).712859175.2465851})., '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 13 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+      14/20         0G          0      59.67          0          0        640:  14%|█▍        | 1/7 [00:13<01:21, 13.65ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+      14/20         0G          0      59.52          0          0        640:  29%|██▊       | 2/7 [00:27<01:07, 13.49ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+      14/20         0G          0      59.45          0          0        640:  43%|████▎     | 3/7 [00:40<00:54, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+      14/20         0G          0      59.33          0          0        640:  57%|█████▋    | 4/7 [00:54<00:40, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+      14/20         0G          0       59.3          0          0        640:  71%|███████▏  | 5/7 [01:07<00:27, 13.59ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+      14/20         0G          0      59.11          0          0        640:  86%|████████▌ | 6/7 [01:21<00:13, 13.63ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 89.84346, 'val/dfl_loss': 0.0, '_timestamp': 1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 14 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00069161, 'lr/pg1': 0.00069161, 'lr/pg2': 0.00069161, '_timestamp': 1712859363.1634786}). Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 53.00529, 'train/dfl_loss': 0.0, '_timestamp': 1712859363.163012}).1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<00.00069161, 'lr/pg2': 0.00069161, '_timestamp': 1712859363.1634786}). Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 53.00529, 'train/dfl_loss': 0.0, '_timestamp': 1712859363.163012}).1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<00.00069161, 'lr/pg2': 0.00069161, '_timestamp': 1712859363.1634786}). Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 53.00529, 'train/dfl_loss': 0.0, '_timestamp': 1712859363.163012}).1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<00.00069161, 'lr/pg2': 0.00069161, '_timestamp': 1712859363.1634786}). Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 53.00529, 'train/dfl_loss': 0.0, '_timestamp': 1712859363.163012}).1712859278.162752}).., '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 14 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+      15/20         0G          0      58.09          0          0        640:  14%|█▍        | 1/7 [00:13<01:19, 13.33ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+      15/20         0G          0      58.27          0          0        640:  29%|██▊       | 2/7 [00:27<01:07, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+      15/20         0G          0      57.99          0          0        640:  43%|████▎     | 3/7 [00:40<00:53, 13.35ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+      15/20         0G          0      57.85          0          0        640:  57%|█████▋    | 4/7 [00:53<00:39, 13.29ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+      15/20         0G          0      57.78          0          0        640:  71%|███████▏  | 5/7 [01:07<00:26, 13.47ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+      15/20         0G          0      57.82          0          0        640:  86%|████████▌ | 6/7 [01:20<00:13, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 69.91542, 'val/dfl_loss': 0.0, '_timestamp': 1712859380.9118104})., '_timestamp': 1712859072.2098532}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 15 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0006140000000000001, 'lr/pg1': 0.0006140000000000001, 'lr/pg2': 0.0006140000000000001, '_timestamp': 1712859465.1948137}).': 0.0, 'train/cls_loss': 51.89491, 'train/dfl_loss': 0.0, '_timestamp': 1712859465.1948137}).712859380.9118104})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0006140000000000001, 'lr/pg2': 0.0006140000000000001, '_timestamp': 1712859465.1948137}).': 0.0, 'train/cls_loss': 51.89491, 'train/dfl_loss': 0.0, '_timestamp': 1712859465.1948137}).712859380.9118104})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0006140000000000001, 'lr/pg2': 0.0006140000000000001, '_timestamp': 1712859465.1948137}).': 0.0, 'train/cls_loss': 51.89491, 'train/dfl_loss': 0.0, '_timestamp': 1712859465.1948137}).712859380.9118104})., '_timestamp': 1712859072.2098532}).
+                   all         50          0          0          0          0          0
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0006140000000000001, 'lr/pg2': 0.0006140000000000001, '_timestamp': 1712859465.1948137}).': 0.0, 'train/cls_loss': 51.89491, 'train/dfl_loss': 0.0, '_timestamp': 1712859465.1948137}).712859380.9118104})., '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0006140000000000001, 'lr/pg2': 0.0006140000000000001, '_timestamp': 1712859465.1948137}).': 0.0, 'train/cls_loss': 51.89491, 'train/dfl_loss': 0.0, '_timestamp': 1712859465.1948137}).712859380.9118104})., '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 15 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+      16/20         0G          0      56.92          0          0        640:  14%|█▍        | 1/7 [00:13<01:19, 13.18ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+      16/20         0G          0      57.19          0          0        640:  29%|██▊       | 2/7 [00:26<01:05, 13.19ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+      16/20         0G          0      57.21          0          0        640:  43%|████▎     | 3/7 [00:39<00:52, 13.07ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+      16/20         0G          0      57.08          0          0        640:  57%|█████▋    | 4/7 [00:52<00:39, 13.14ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+      16/20         0G          0      56.94          0          0        640:  71%|███████▏  | 5/7 [01:06<00:26, 13.34ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+      16/20         0G          0      56.82          0          0        640:  86%|████████▌ | 6/7 [01:19<00:13, 13.44ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.15797, 'val/dfl_loss': 0.0, '_timestamp': 1712859483.7042744})., '_timestamp': 1712859072.2098532}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'lr/pg0': 0.000515, 'lr/pg1': 0.000515, 'lr/pg2': 0.000515, '_timestamp': 1712859567.1254551}).p: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 50.74876, 'train/dfl_loss': 0.0, '_timestamp': 1712859567.1251202}).712859483.7042744})., '_timestamp': 1712859072.2098532}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0000515, 'lr/pg2': 0.000515, '_timestamp': 1712859567.1254551}).p: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 50.74876, 'train/dfl_loss': 0.0, '_timestamp': 1712859567.1251202}).712859483.7042744})., '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0000515, 'lr/pg2': 0.000515, '_timestamp': 1712859567.1254551}).p: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 50.74876, 'train/dfl_loss': 0.0, '_timestamp': 1712859567.1251202}).712859483.7042744})., '_timestamp': 1712859072.2098532}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0000515, 'lr/pg2': 0.000515, '_timestamp': 1712859567.1254551}).p: 20. Dropping entry: {'train/box_loss': 0.0, 'train/cls_loss': 50.74876, 'train/dfl_loss': 0.0, '_timestamp': 1712859567.1251202}).712859483.7042744})., '_timestamp': 1712859072.2098532}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+      17/20         0G          0      55.63          0          0        640:  14%|█▍        | 1/7 [00:13<01:20, 13.36[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      17/20         0G          0      55.72          0          0        640:  29%|██▊       | 2/7 [00:27<01:07, 13.53[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      17/20         0G          0      55.87          0          0        640:  43%|████▎     | 3/7 [00:40<00:54, 13.58[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      17/20         0G          0      55.82          0          0        640:  57%|█████▋    | 4/7 [00:54<00:41, 13.70[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      17/20         0G          0      55.75          0          0        640:  71%|███████▏  | 5/7 [01:08<00:27, 13.68[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      17/20         0G          0      55.66          0          0        640:  86%|████████▌ | 6/7 [01:21<00:13, 13.69[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 16 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 17 is less than current step: 20. Dropping entry: {'lr/pg0': 0.0004159999999999999, 'lr/pg1': 0.0004159999999999999, 'lr/pg2': 0.0004159999999999999, '_timestamp': 1712859670.3166673}).': 0.0, 'train/cls_loss': 49.83662, 'train/dfl_loss': 0.0, '_timestamp': 1712859670.3158484}).val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:10<0 'lr/pg1': 0.0004159999999999999, 'lr/pg2': 0.0004159999999999999, '_timestamp': 1712859670.3166673}).': 0.0, 'train/cls_loss': 49.83662, 'train/dfl_loss': 0.0, '_timestamp': 1712859670.3158484}).val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0004159999999999999, 'lr/pg2': 0.0004159999999999999, '_timestamp': 1712859670.3166673}).': 0.0, 'train/cls_loss': 49.83662, 'train/dfl_loss': 0.0, '_timestamp': 1712859670.3158484}).val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0 'lr/pg1': 0.0004159999999999999, 'lr/pg2': 0.0004159999999999999, '_timestamp': 1712859670.3166673}).': 0.0, 'train/cls_loss': 49.83662, 'train/dfl_loss': 0.0, '_timestamp': 1712859670.3158484}).val/box_loss': 0.0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 17 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      18/20         0G          0      55.57          0          0        640:  14%|█▍        | 1/7 [00:13<01:20, 13.40ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      18/20         0G          0       55.7          0          0        640:  29%|██▊       | 2/7 [00:27<01:07, 13.59ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      18/20         0G          0      55.52          0          0        640:  43%|████▎     | 3/7 [00:40<00:54, 13.67ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      18/20         0G          0       55.4          0          0        640:  57%|█████▋    | 4/7 [00:54<00:40, 13.57ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      18/20         0G          0      55.32          0          0        640:  71%|███████▏  | 5/7 [01:07<00:27, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      18/20         0G          0      55.24          0          0        640:  86%|████████▌ | 6/7 [01:21<00:13, 13.61ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 79.114, 'val/dfl_loss': 0.0, '_timestamp': 1712859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 18 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00031700000000000006, 'lr/pg1': 0.00031700000000000006, 'lr/pg2': 0.00031700000000000006, '_timestamp': 1712859773.2459774}).0.0, 'train/cls_loss': 49.35578, 'train/dfl_loss': 0.0, '_timestamp': 1712859773.2459774}).2859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0, 'lr/pg1': 0.00031700000000000006, 'lr/pg2': 0.00031700000000000006, '_timestamp': 1712859773.2459774}).0.0, 'train/cls_loss': 49.35578, 'train/dfl_loss': 0.0, '_timestamp': 1712859773.2459774}).2859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0, 'lr/pg1': 0.00031700000000000006, 'lr/pg2': 0.00031700000000000006, '_timestamp': 1712859773.2459774}).0.0, 'train/cls_loss': 49.35578, 'train/dfl_loss': 0.0, '_timestamp': 1712859773.2459774}).2859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0, 'lr/pg1': 0.00031700000000000006, 'lr/pg2': 0.00031700000000000006, '_timestamp': 1712859773.2459774}).0.0, 'train/cls_loss': 49.35578, 'train/dfl_loss': 0.0, '_timestamp': 1712859773.2459774}).2859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0, 'lr/pg1': 0.00031700000000000006, 'lr/pg2': 0.00031700000000000006, '_timestamp': 1712859773.2459774}).0.0, 'train/cls_loss': 49.35578, 'train/dfl_loss': 0.0, '_timestamp': 1712859773.2459774}).2859688.284986}).0, 'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 18 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      19/20         0G          0      54.82          0          0        640:  14%|█▍        | 1/7 [00:13<01:22, 13.67ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      19/20         0G          0      55.94          0          0        640:  29%|██▊       | 2/7 [00:27<01:08, 13.80ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      19/20         0G          0      55.44          0          0        640:  43%|████▎     | 3/7 [00:41<00:55, 13.75ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      19/20         0G          0      55.27          0          0        640:  57%|█████▋    | 4/7 [00:54<00:40, 13.64ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      19/20         0G          0      55.11          0          0        640:  71%|███████▏  | 5/7 [01:08<00:27, 13.69ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      19/20         0G          0      54.99          0          0        640:  86%|████████▌ | 6/7 [01:22<00:13, 13.72ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 81.74379, 'val/dfl_loss': 0.0, '_timestamp': 1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 19 is less than current step: 20. Dropping entry: {'lr/pg0': 0.00021799999999999996, 'lr/pg1': 0.00021799999999999996, 'lr/pg2': 0.00021799999999999996, '_timestamp': 1712859877.008966}). 0.0, 'train/cls_loss': 49.10805, 'train/dfl_loss': 0.0, '_timestamp': 1712859877.008966}).1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0, 'lr/pg1': 0.00021799999999999996, 'lr/pg2': 0.00021799999999999996, '_timestamp': 1712859877.008966}). 0.0, 'train/cls_loss': 49.10805, 'train/dfl_loss': 0.0, '_timestamp': 1712859877.008966}).1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0, 'lr/pg1': 0.00021799999999999996, 'lr/pg2': 0.00021799999999999996, '_timestamp': 1712859877.008966}). 0.0, 'train/cls_loss': 49.10805, 'train/dfl_loss': 0.0, '_timestamp': 1712859877.008966}).1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+  0%|          | 0/7 [00:00<?, ?it/s]stances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0, 'lr/pg1': 0.00021799999999999996, 'lr/pg2': 0.00021799999999999996, '_timestamp': 1712859877.008966}). 0.0, 'train/cls_loss': 49.10805, 'train/dfl_loss': 0.0, '_timestamp': 1712859877.008966}).1712859791.2571466}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+  0%|          | 0/7 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 19 is less than current step: 20. Dropping entry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      20/20         0G          0      55.47          0          0        640:  14%|█▍        | 1/7 [00:13<01:20, 13.39ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      20/20         0G          0      54.87          0          0        640:  29%|██▊       | 2/7 [00:27<01:07, 13.58ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      20/20         0G          0      55.06          0          0        640:  43%|████▎     | 3/7 [00:41<00:54, 13.74ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      20/20         0G          0      54.93          0          0        640:  57%|█████▋    | 4/7 [00:54<00:41, 13.71ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      20/20         0G          0      54.79          0          0        640:  71%|███████▏  | 5/7 [01:08<00:27, 13.70ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+      20/20         0G          0       54.7          0          0        640:  86%|████████▌ | 6/7 [01:22<00:13, 13.69ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:09<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                   all         50          0          0          0          0          0
+WARNING  no labels found in detect set, can not compute metrics without labels
+20 epochs completed in 0.574 hours.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:17<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+Optimizer stripped from yolov8_100\yolov8n_new\weights\best.pt, 6.2MB
+Validating yolov8_100\yolov8n_new\weights\best.pt...
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:08<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:08<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                   all         50          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:14<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:14<0ry: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'val/box_loss': 0.0, 'val/cls_loss': 80.97928, 'val/dfl_loss': 0.0, '_timestamp': 1712859895.0245273}).'val/cls_loss': 77.86108, 'val/dfl_loss': 0.0, '_timestamp': 1712859585.0390527}).
+Speed: 4.0ms preprocess, 244.2ms inference, 0.0ms loss, 7.3ms postprocess per image

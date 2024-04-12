@@ -1,0 +1,18 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\train.cache... 100 images, 0 backgrou
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\val.cache... 50 images, 0 backgrounds,
+Freezing layer 'model.22.dfl.conv.weight'
+Plotting labels to yolov8_100m\yolov8m\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 77 weight(decay=0.0), 84 weight(decay=0.0005), 83 bias(decay=0.0)
+  0%|          | 0/7 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_100m\yolov8m
+Starting training for 10 epochs...
+Closing dataloader mosaic
+
+
+
+
+

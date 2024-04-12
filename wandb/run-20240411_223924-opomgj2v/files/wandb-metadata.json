@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-04-11T17:09:25.647061",
+    "startedAt": "2024-04-11T17:09:24.530829",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "OneDrive/Documents/cv/cv3/assignment3.ipynb",
+    "codePathLocal": null,
+    "root": "C:\\Users\\swaya",
+    "host": "DESKTOP-Q1UBCCO",
+    "username": "swaya",
+    "executable": "C:\\Users\\swaya\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 134.5727882385254,
+            "used": 98.77485656738281
+        }
+    },
+    "memory": {
+        "total": 15.788383483886719
+    }
+}

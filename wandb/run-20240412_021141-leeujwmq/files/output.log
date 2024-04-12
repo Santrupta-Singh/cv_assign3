@@ -1,0 +1,135 @@
+Freezing layer 'model.22.dfl.conv.weight'
+Plotting labels to yolov8_100n_new\yolov8n_new\labels.jpg...
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\train.cache... 100 images, 0 backgrou
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\val.cache... 50 images, 0 backgrounds,
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_100n_new\yolov8n_new
+Starting training for 10 epochs...
+Closing dataloader mosaic
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       1/10         0G      3.295      5.303      4.426          4        640: 100%|██████████| 7/7 [00:45<00:00,  6.46
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50         52    0.00238      0.635      0.012    0.00315
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+
+
+
+
+
+
+       2/10         0G      3.272      5.096      4.392          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.24
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+       3/10         0G      3.163      5.022      4.287          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.20
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50         52    0.00241      0.635    0.00794    0.00244
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+
+
+
+
+
+
+       4/10         0G      3.126      4.873      4.228          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.16
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50         52    0.00233      0.615    0.00756     0.0024
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+
+
+
+
+
+       5/10         0G      3.187      5.111      4.223          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.22
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50         52    0.00227      0.615    0.00543    0.00163
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+
+
+
+
+
+
+       6/10         0G      3.325       4.83      4.133          5        640: 100%|██████████| 7/7 [00:43<00:00,  6.18
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50         52    0.00235      0.635    0.00505     0.0016
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+
+
+
+
+
+
+       7/10         0G      3.094      4.768      4.127          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.19
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52    0.00221      0.615    0.00522    0.00166
+
+
+
+
+
+
+       8/10         0G      2.996      4.692      4.105          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.28
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:04<0
+                   all         50         52    0.00229      0.635    0.00525    0.00162
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+
+
+
+
+
+
+       9/10         0G      2.945      4.682       4.01          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.24
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52    0.00221      0.615    0.00522    0.00156
+
+
+
+
+
+
+      10/10         0G       3.08      4.622      4.043          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.19
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+                   all         50         52    0.00221      0.615    0.00532    0.00168
+10 epochs completed in 0.146 hours.
+Optimizer stripped from yolov8_100n_new\yolov8n_new\weights\last.pt, 6.2MB
+Optimizer stripped from yolov8_100n_new\yolov8n_new\weights\best.pt, 6.2MB
+Validating yolov8_100n_new\yolov8n_new\weights\best.pt...
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+YOLOv8n summary (fused): 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+                   all         50         52    0.00239      0.635     0.0201    0.00861
+Speed: 3.1ms preprocess, 120.5ms inference, 0.0ms loss, 2.8ms postprocess per image
+Results saved to [1myolov8_100n_new\yolov8n_new

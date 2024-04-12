@@ -1,0 +1,50 @@
+
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\labels\train... 303 images, 0 backgrounds, 0 corrupt:
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\labels\train... 400 images, 0 backgrounds, 0 corrupt:
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\labels\val... 50 images, 0 backgrounds, 0 corrupt: 100%|
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\labels\train.cache
+[34m[1mval: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\archive\labels\val.cache
+Plotting labels to runs\detect\train4\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/25 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train4
+Starting training for 10 epochs...
+Closing dataloader mosaic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/10         0G      3.173      5.129      4.334         16        640: 100%|██████████| 25/25 [03:01<00:00,  7.
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:07<0
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:10<0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+

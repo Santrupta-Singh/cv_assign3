@@ -1,0 +1,7 @@
+path: ./
+train: C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\images\train
+val: C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\images\val
+
+nc: 1
+names:
+  0: duck

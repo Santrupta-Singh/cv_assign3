@@ -1,0 +1,191 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\train.cache... 400 images, 0 backgroun
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive\labels\val.cache... 50 images, 0 backgrounds, 0
+Freezing layer 'model.22.dfl.conv.weight'
+Plotting labels to yolov8_400\yolov8n\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/25 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_400\yolov8n
+Starting training for 5 epochs...
+
+
+
+
+
+
+
+
+
+        1/5         0G      1.067      3.108      1.219         50        640:  32%|███▏      | 8/25 [02:03<04:21, 15.4
+Training: yolov8n.pt
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.pt, data=./archive/config1.yaml, epochs=10, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_100n, name=yolov8n, exist_ok=True, pretrained=True, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_100n\yolov8n
+Training: yolov8n.pt
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\train...:   0%|          | 0/100 [00:
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=yolov8n.pt, data=./datasets/archive1/config.yaml, epochs=10, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=yolov8_100n, name=yolov8n, exist_ok=True, pretrained=True, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_100n\yolov8n
+Overriding model.yaml nc=80 with nc=1
+                   from  n    params  module                                       arguments
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]
+ 22        [15, 18, 21]  1    751507  ultralytics.nn.modules.head.Detect           [1, [64, 128, 256]]
+Model summary: 225 layers, 3011043 parameters, 3011027 gradients, 8.2 GFLOPs
+Transferred 319/355 items from pretrained weights
+[34m[1mTensorBoard: [39m[22mStart with 'tensorboard --logdir yolov8_100n\yolov8n', view at http://localhost:6006/
+[34m[1mtrain: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\train... 100 images, 0 backgrounds, 0
+[34m[1mval: [39m[22mScanning C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\val... 50 images, 0 backgrounds, 0 corr
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\train.cache
+[34m[1mval: [39m[22mNew cache created: C:\Users\swaya\OneDrive\Documents\cv\cv3\datasets\archive1\labels\val.cache
+Plotting labels to yolov8_100n\yolov8n\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/7 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_100n\yolov8n
+Starting training for 10 epochs...
+Closing dataloader mosaic
+
+
+
+
+
+
+       1/10         0G      1.247      3.834      1.392          4        640: 100%|██████████| 7/7 [01:31<00:00, 13.03
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:18<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52     0.0034      0.981      0.582      0.433
+
+
+
+
+
+
+       2/10         0G      1.121      3.051      1.309          4        640: 100%|██████████| 7/7 [00:44<00:00,  6.31
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52     0.0034      0.981      0.664       0.48
+
+
+
+
+
+
+       3/10         0G      1.051      2.842      1.229          4        640: 100%|██████████| 7/7 [00:44<00:00,  6.30
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52     0.0034      0.981      0.671      0.482
+
+
+
+
+
+
+       4/10         0G      0.994      2.729      1.232          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.28
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52    0.00725      0.962      0.667      0.468
+
+
+
+
+
+       5/10         0G      1.017      2.645       1.19          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.25
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52     0.0034      0.981      0.609      0.439
+
+
+
+
+
+
+       6/10         0G     0.9998      2.497      1.165          5        640: 100%|██████████| 7/7 [00:43<00:00,  6.25
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:09<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52      0.694      0.566      0.675      0.421
+
+
+
+
+
+
+       7/10         0G     0.9194      2.529       1.11          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.26
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52       0.85      0.327      0.661      0.448
+
+
+
+
+
+
+       8/10         0G     0.9345      2.245      1.158          4        640: 100%|██████████| 7/7 [00:44<00:00,  6.30
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52       0.82      0.351      0.699      0.486
+
+
+
+
+
+
+       9/10         0G     0.8571      2.287      1.076          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.21
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+  0%|          | 0/7 [00:00<?, ?it/s]
+                   all         50         52      0.854       0.45      0.732      0.508
+
+
+
+
+
+
+      10/10         0G     0.8641      2.243      1.174          4        640: 100%|██████████| 7/7 [00:43<00:00,  6.22
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:08<0
+                   all         50         52      0.862      0.479      0.752      0.534
+10 epochs completed in 0.166 hours.
+Optimizer stripped from yolov8_100n\yolov8n\weights\last.pt, 6.2MB
+Optimizer stripped from yolov8_100n\yolov8n\weights\best.pt, 6.2MB
+Validating yolov8_100n\yolov8n\weights\best.pt...
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?
+Ultralytics YOLOv8.1.45  Python-3.10.11 torch-2.2.1+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<0
+                   all         50         52      0.861      0.476      0.752      0.534
+Speed: 2.2ms preprocess, 122.7ms inference, 0.0ms loss, 6.4ms postprocess per image
+Results saved to [1myolov8_100n\yolov8n
